@@ -32,8 +32,8 @@ import java.sql.Statement;
 public class VTPProcessCSV {
 
    // MODIFY these to load/store to/from the correct locations
-   private static final String DATABASE = "jdbc:sqlite:database/vtp.db";
-   private static final String CSV_FILE = "database/lga_indigenous_status_by_age_by_sex_census_2016.csv";
+   private static final String DATABASE = "jdbc:sqlite:rmit-vietnam-teaching-cosc3056-2024b-studio-project/database/vtp.db";
+   private static final String CSV_FILE = "rmit-vietnam-teaching-cosc3056-2024b-studio-project/database/lga_indigenous_status_by_age_by_sex_census_2016.csv";
 
 
    public static void main (String[] args) {
